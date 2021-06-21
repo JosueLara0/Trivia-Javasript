@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Trivia</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<form action="" id="trivia">
+    <h2>Trivia</h2>
+    <div class="question-field">
+        <label for="amount">Number of Questions: </label>
+        <select name="" id="amount">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+    </div>
+
+    <div class="question-field">
+        <label for="category">Category: </label>
+        <select name="" id="category">
+            <option value="0">Any Category</option>
+            <option value="9">General Culture</option>
+            <option value="10">Books</option>
+            <option value="11">Movies</option>
+            <option value="12">Music</option>
+            <option value="13">Musicals and Theaters</option>
+            <option value="14">Television</option>
+            <option value="15">VideoGames</option>
+            <option value="16">Board Games</option>
+            <option value="17">Science and Nature</option>
+            <option value="18">Computer Science</option>
+            <option value="19">Maths</option>
+            <option value="20">Mythology</option>
+            <option value="21">Sports</option>
+            <option value="22">Geography</option>
+            <option value="23">History</option>
+            <option value="24">Politics</option>
+            <option value="25">Art</option>
+            <option value="26">Celebrities</option>
+            <option value="27">Animal</option>
+            <option value="28">Cars</option>
+            <option value="29">Comics</option>
+            <option value="30">Gadgets</option>
+            <option value="31">Anime and Manga</option>
+            <option value="32">Cartoons</option>
+        </select>
+    </div>
+
+    <div class="question-field">
+        <label for="difficulty">Difficulty: </label>
+        <select name="" id="difficulty">
+            <option value="0">Any Difficulty</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Normal</option>
+            <option value="hard">Hard</option>
+        </select>
+    </div>
+
+    <div class="question-field">
+        <label for="type">Type of Questions: </label>
+        <select name="" id="type">
+            <option value="0">Any Type</option>
+            <option value="multiple">Multiple Options</option>
+            <option value="boolean">True or False</option>
+        </select>
+    </div>
+
+    <input type="submit" value="Start" />
+</form>
+
+<div class="content" id="questionsContent">
+    <p id="questionName"></p>
+    <div class="question-items">
+        <button id="1" type="button" class="answer"></button>
+        <button id="2" type="button" class="answer"></button>
+        <button id="3" type="button" class="answer"></button>
+        <button id="4" type="button" class="answer"></button>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

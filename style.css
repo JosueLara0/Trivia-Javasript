@@ -1,0 +1,141 @@
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to right bottom, #2ad67a, #00c5b2, #00ade2, #008ff5, #0966de);
+    }
+
+    /* Menu */
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 36%;
+        margin: auto;
+        padding: 1rem 0.2rem;
+        border: solid 0.1rem teal;
+        border-radius: 1rem;
+        background-color: transparent;
+        box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.62);
+        color: #fff;
+    }
+
+    h2 {
+        font-weight: bold;
+        margin-bottom: 1.4rem;
+    }
+
+    .question-field {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+    select {
+        outline: none;
+        border: none;
+        padding: 0.4rem;
+        margin-top: 0.8rem;
+        border-bottom: 2px solid teal;
+        background-color: transparent;
+    }
+
+    select:hover {
+        color: white;
+        background-color: teal;
+    }
+
+    input[type="submit"] {
+        width: 90%;
+        background-color: teal;
+        padding: 10px;
+        border: none;
+        font-weight: bold;
+        font-size: large;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #fff;
+        color: teal;
+        transition: 0.3s ease;
+    }
+
+    /* Questions and answers part */
+
+    .content {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+        padding: 1rem;
+        border-radius: 1rem;
+        border: solid 0.1rem teal;
+        background-color: transparent;
+        box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.62);
+        color: black;
+    }
+
+    .question-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+        padding: 0.6rem;
+    }
+
+    .question-items button {
+        width: 48%;
+        margin-top: 0.6rem;
+        padding: 0.6rem;
+        border: none;
+        background-color: teal;
+        color: #fff;
+        border-radius: 0.6rem;
+    }
+
+    .question-items button:hover {
+        background-color: #fff;
+        color: black;
+    }
+
+    /* Results Part */
+
+    p {
+        color: white;
+        margin: 1rem;
+    }
+
+    h3 {
+        color: red;
+    }
+
+    a {
+        background-color: #ffffff;
+        padding: 0.5rem;
+        margin: 1rem;
+        border-radius: 0.6rem;;
+    }
+
+    a:hover {
+        background-color: gold;
+    }
